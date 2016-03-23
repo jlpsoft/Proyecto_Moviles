@@ -1,0 +1,1110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Reporte Empleados</title>
+</head>
+
+<body>
+<table width="100%" border="1">
+  <tr>
+    <td colspan="7">
+    	<center><strong>Todos | </strong></center>
+    </td>
+  </tr>
+  <tr>
+    <td width="5%"><center><strong>No.</strong></center></td>
+    <td width="27%"><strong>Apellido y Nombre</strong></td>
+                <td width="12%"><center><strong>DNI</strong></center></td>
+                <td width="12%"><center><strong>Email</strong></center></td>
+                <td width="12%"><center><strong>Data Start</strong></center></td>
+                <td width="15%"><center><strong>Departamento</strong></center></td>
+                <td width="30%"><center><strong>Address</strong></center></td>
+                <td width="14%"><center><strong>Estado</strong></center></td>
+                <td width="10%"><center><strong>pay</strong></center></td>
+                <td width="32%"><center><strong>role</strong></center></td>
+  </tr>
+    <tr>
+    <td><center><strong>1</strong></center></td>
+    <td><i class="icon-user"></i> ALMORIN TORREJON ELDER</td>
+                    <td><center>07195806</center></td>
+                <td><center>ealmorin@gmail.com</center></td>
+                <td><center>1951-09-28</center></td>
+                <td><center>LORETO</center></td>
+                <td><center>Calle Piura 336 - Punchana - Maynas</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=1" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar1" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>2</strong></center></td>
+    <td><i class="icon-user"></i> ÁLVAREZ ROMERO SEGUNDO ÓSCAR</td>
+                    <td><center>07639874</center></td>
+                <td><center>salvarez@gmail.com</center></td>
+                <td><center>1964-01-17</center></td>
+                <td><center>LIBERTAD</center></td>
+                <td><center>Av.España872-3 -Trujillo</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=2" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar2" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>3</strong></center></td>
+    <td><i class="icon-user"></i> APONTE GUERRERO ERROL</td>
+                    <td><center>18095992</center></td>
+                <td><center>eaponte@gmail.com</center></td>
+                <td><center>1963-06-26</center></td>
+                <td><center>PIURA</center></td>
+                <td><center>Av. San Ramon s/n Urb. El Chipe</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=3" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar3" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>4</strong></center></td>
+    <td><i class="icon-user"></i> AQUINO MOSQUERA LUZ GLORIA</td>
+                    <td><center>07227131</center></td>
+                <td><center>laquino@gmail.com</center></td>
+                <td><center>1964-05-17</center></td>
+                <td><center>JUNIN</center></td>
+                <td><center>Jr. Loreto 363 - Huancayo</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=4" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar4" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>5</strong></center></td>
+    <td><i class="icon-user"></i> ARBAÑIL RIVADENEIRA RICARDO ANTONIO</td>
+                    <td><center>07581065</center></td>
+                <td><center>rarbañil@gmail.com</center></td>
+                <td><center>1963-10-10</center></td>
+                <td><center>MOQUEGUA</center></td>
+                <td><center>Av. Balta s/n - cruce con Calle Tacna</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=5" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar5" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>6</strong></center></td>
+    <td><i class="icon-user"></i> ARCE PÉREZ ISAAC</td>
+                    <td><center>07185045</center></td>
+                <td><center>iarce@gmail.com</center></td>
+                <td><center>1960-05-31</center></td>
+                <td><center>CITY-NO</center></td>
+                <td><center>Carretera Yurimaguas Nº 408 Banda Shilcayo - Tarap</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=6" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar6" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>7</strong></center></td>
+    <td><i class="icon-user"></i> CASTRO LOPEZ JOSÉ PABLO</td>
+                    <td><center>10281383</center></td>
+                <td><center>jcastro@gmail.com</center></td>
+                <td><center>1963-10-14</center></td>
+                <td><center>PIURA</center></td>
+                <td><center>Urb. Leoncio elias Arbolera F11</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=7" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar7" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>8</strong></center></td>
+    <td><i class="icon-user"></i> CCORAHUA AYTE SANTOS</td>
+                    <td><center>09605223</center></td>
+                <td><center>sccorahua@gmail.com</center></td>
+                <td><center>1962-11-21</center></td>
+                <td><center>APURIMAC</center></td>
+                <td><center>Plaza de Armas Tamburco s/n - Abancay</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=8" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar8" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>9</strong></center></td>
+    <td><i class="icon-user"></i> ECHE LLENQUE JOSÉ CARLOS</td>
+                    <td><center>09863166</center></td>
+                <td><center>jeche@gmail.com</center></td>
+                <td><center>1960-01-05</center></td>
+                <td><center>CITY-NO</center></td>
+                <td><center>Av. Ricardo Angulo 695 - San isidro</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=9" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar9" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>10</strong></center></td>
+    <td><i class="icon-user"></i> ELIZALDE DIOSES SANTIAGO</td>
+                    <td><center>18032436</center></td>
+                <td><center>selizalde@gmail.com</center></td>
+                <td><center>1962-12-22</center></td>
+                <td><center>TUMBES</center></td>
+                <td><center>Av. Tupac Amaru 128 - Tumbes</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=10" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar10" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>11</strong></center></td>
+    <td><i class="icon-user"></i> ESPINOZA LUGO JESUS MANUEL</td>
+                    <td><center>06475266</center></td>
+                <td><center>jespinoza@gmail.com</center></td>
+                <td><center>1962-12-11</center></td>
+                <td><center>HUANUCO</center></td>
+                <td><center>Jr. Junin 415 - Huanuco</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=11" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar11" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>12</strong></center></td>
+    <td><i class="icon-user"></i> ESPINOZA PARADO ROGER ADRÍAN</td>
+                    <td><center>07880663</center></td>
+                <td><center>respinoza@gmail.com</center></td>
+                <td><center>1963-07-07</center></td>
+                <td><center>AYACUCHO</center></td>
+                <td><center>Jr. Callao 122 - Huamanga</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=12" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar12" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>13</strong></center></td>
+    <td><i class="icon-user"></i> FALCON RUÍZ GIOVANA GICELLY</td>
+                    <td><center>06147942</center></td>
+                <td><center>gfalcon@gmail.com</center></td>
+                <td><center>1962-09-12</center></td>
+                <td><center>BARRANCO</center></td>
+                <td><center>Av. Petit Thouars 4698 - Miraflores</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=13" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar13" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>14</strong></center></td>
+    <td><i class="icon-user"></i> FERRER RECARTE MIGUEL ÁNGEL</td>
+                    <td><center>05200501</center></td>
+                <td><center>mferrer@gmail.com</center></td>
+                <td><center>1937-08-24</center></td>
+                <td><center>CITY.NO</center></td>
+                <td><center>Av. San Borja Sur 407 - San Borja</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=14" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar14" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>15</strong></center></td>
+    <td><i class="icon-user"></i> FIGUEROA CORTEZ DOMINGO FRANCISCO</td>
+                    <td><center>07258710</center></td>
+                <td><center>dfigueroa@gmail.com</center></td>
+                <td><center>1960-10-13</center></td>
+                <td><center>TUMBES</center></td>
+                <td><center>Av. Mariscal Castilla 957 - Tumbes</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=15" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar15" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>16</strong></center></td>
+    <td><i class="icon-user"></i> FLORES FLORES EMERSON</td>
+                    <td><center>07180571</center></td>
+                <td><center>eflores@gmail.com</center></td>
+                <td><center>1954-06-02</center></td>
+                <td><center>AMAZONAS</center></td>
+                <td><center>Heroes del Cenepa 668 - Bagua - Amazonas</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=16" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar16" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>17</strong></center></td>
+    <td><i class="icon-user"></i> FLORES ZAMBRANO CARLOS</td>
+                    <td><center>10553983</center></td>
+                <td><center>cflores@gmail.com</center></td>
+                <td><center>1969-09-01</center></td>
+                <td><center>LIMA</center></td>
+                <td><center>Mz. D lote 21 Urb Sr. De Los Milagros - SMP</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=17" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar17" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>18</strong></center></td>
+    <td><i class="icon-user"></i> GAMBOA VELAZCO WASHINGTON GABINO</td>
+                    <td><center>06682306</center></td>
+                <td><center>wgamboa@gmail.com</center></td>
+                <td><center>1969-05-19</center></td>
+                <td><center>MADRE DE DIOS</center></td>
+                <td><center>Fiztcarald 265 - Tambopat</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=18" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar18" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>19</strong></center></td>
+    <td><i class="icon-user"></i> GONZALES DE OLIVEIRA BEBERLI</td>
+                    <td><center>07223843</center></td>
+                <td><center>bgonzales@gmail.com</center></td>
+                <td><center>1965-05-10</center></td>
+                <td><center>LORETO</center></td>
+                <td><center>Cornejo Portugal 2319 - Belen - Iquitos</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=19" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar19" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>20</strong></center></td>
+    <td><i class="icon-user"></i> GONZALES GUAYAN LUIS</td>
+                    <td><center>07189721</center></td>
+                <td><center>lgonzales@gmail.com</center></td>
+                <td><center>1940-09-08</center></td>
+                <td><center>UCAYALI</center></td>
+                <td><center>Av. Primavera 2da Etapa Mz 11 lote 1</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=20" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar20" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>21</strong></center></td>
+    <td><i class="icon-user"></i> GUILLEN ALVARO ELENIZ KARIN</td>
+                    <td><center>07237360</center></td>
+                <td><center>eguillen@gmail.com</center></td>
+                <td><center>1969-09-01</center></td>
+                <td><center>ICA</center></td>
+                <td><center>Av. Cutervo 920 - Ica</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=21" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar21" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>22</strong></center></td>
+    <td><i class="icon-user"></i> HERRERA ROSALES PABLO ERNESTO</td>
+                    <td><center>07212628</center></td>
+                <td><center>pherrera@gmail.com</center></td>
+                <td><center>1955-11-07</center></td>
+                <td><center>MOQUEGUA</center></td>
+                <td><center>Calle Ancash No 109 - Moquegua</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=22" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar22" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>23</strong></center></td>
+    <td><i class="icon-user"></i> HUAMAN SURCO MARIO</td>
+                    <td><center>08471154</center></td>
+                <td><center>mhuaman@gmail.com</center></td>
+                <td><center>1954-09-05</center></td>
+                <td><center>MADRE DE DIOS</center></td>
+                <td><center>Jr. Las ponas a15 - Tambopata</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=23" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar23" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>24</strong></center></td>
+    <td><i class="icon-user"></i> HUAMANCHUMO LEYTON MARÍA CRISTINA</td>
+                    <td><center>07256252</center></td>
+                <td><center>mhuamanchumo@gmail.com</center></td>
+                <td><center>1958-03-23</center></td>
+                <td><center>LAMBAYEQUE</center></td>
+                <td><center>Calle Balta 412 - Pimentel - Chiclayo</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=24" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar24" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>25</strong></center></td>
+    <td><i class="icon-user"></i> LARA LANDÍVAR MANUEL</td>
+                    <td><center>07247805</center></td>
+                <td><center>mlara@gmail.com</center></td>
+                <td><center>1969-08-17</center></td>
+                <td><center>TACNA</center></td>
+                <td><center>Calle Argentina 640 - Urb Villa Hermosa</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=25" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar25" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>26</strong></center></td>
+    <td><i class="icon-user"></i> LEÓN LEÓN LUIS EDGARDO</td>
+                    <td><center>10146729</center></td>
+                <td><center>lleon@gmail.com</center></td>
+                <td><center>1967-09-26</center></td>
+                <td><center>CAJAMARCA</center></td>
+                <td><center>Urb. La alameda Santa Teresa de Journet </center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=26" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar26" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>27</strong></center></td>
+    <td><i class="icon-user"></i> LÓPEZ VALVERDE ROBERT CLODOALDO</td>
+                    <td><center>06080192</center></td>
+                <td><center>rlopez@gmail.com</center></td>
+                <td><center>1967-01-19</center></td>
+                <td><center>JUNIN</center></td>
+                <td><center>Jr. Loreto 363 - Huancayo</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=27" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar27" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>28</strong></center></td>
+    <td><i class="icon-user"></i> LÓPEZ VERA ROCÍO ZOILA</td>
+                    <td><center>10147652</center></td>
+                <td><center>rolopez@gmail.com</center></td>
+                <td><center>1969-05-28</center></td>
+                <td><center>CITY-NO</center></td>
+                <td><center>Av. San Borja Sur 406 - San Borja</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=28" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar28" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>29</strong></center></td>
+    <td><i class="icon-user"></i> LUQUE UCHUCHOQUE JUAN ALEXIS</td>
+                    <td><center>07185074</center></td>
+                <td><center>jluque@gmail.com</center></td>
+                <td><center>1949-06-08</center></td>
+                <td><center>AREQUIPA</center></td>
+                <td><center>Av. Unión 200 - Urb. César Vallejo - Paucarpata</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=29" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar29" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>30</strong></center></td>
+    <td><i class="icon-user"></i> MACARLUPÚ ESCOLÁSTICO MARÍA DEL ROSARIO</td>
+                    <td><center>07230626</center></td>
+                <td><center>mmacarlupu@gmail.com</center></td>
+                <td><center>1956-04-14</center></td>
+                <td><center>LIMA</center></td>
+                <td><center>Jr. Tacna 540 - Huancayo</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=30" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar30" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>31</strong></center></td>
+    <td><i class="icon-user"></i> MARON VASQUEZ JOSE ALFONSO</td>
+                    <td><center>07183831</center></td>
+                <td><center>jmaron@gmail.com</center></td>
+                <td><center>1967-01-15</center></td>
+                <td><center>PUNO</center></td>
+                <td><center>Urb. Villa del lago H22 - Puno</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=31" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar31" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>32</strong></center></td>
+    <td><i class="icon-user"></i> MEDINA ABANTO PUBLIO ALEJANDRO</td>
+                    <td><center>07181148</center></td>
+                <td><center>pmedina@gmail.com</center></td>
+                <td><center>1965-10-23</center></td>
+                <td><center>CAJAMARCA</center></td>
+                <td><center>Jr. Jaime de Martines 208 - Bambamarca</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=32" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar32" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>33</strong></center></td>
+    <td><i class="icon-user"></i> MENDIOLA CHAVEZ MÓNICA MAGDALENA</td>
+                    <td><center>07190463</center></td>
+                <td><center>mmendiola@gmail.com</center></td>
+                <td><center>1962-12-02</center></td>
+                <td><center>MIRAFLORES</center></td>
+                <td><center>Ernesto Cardenas 123 Dpto 201 - Surco</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=33" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar33" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>34</strong></center></td>
+    <td><i class="icon-user"></i> MONZÓN TORRES FREDY LUIS</td>
+                    <td><center>06792769</center></td>
+                <td><center>fmonzon@gmail.com</center></td>
+                <td><center>1969-09-12</center></td>
+                <td><center>AREQUIPA</center></td>
+                <td><center>Av. Kennedy cdra 16 s/n Paucarpata</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=34" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar34" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>35</strong></center></td>
+    <td><i class="icon-user"></i> NACARINO RODRIGUEZ CARLOS WALTER</td>
+                    <td><center>10144756</center></td>
+                <td><center>cnacarino@gmail.com</center></td>
+                <td><center>1966-04-03</center></td>
+                <td><center>SUR</center></td>
+                <td><center>Calle Colón Nº 122 Urb. Alas del Sur</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=35" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar35" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>36</strong></center></td>
+    <td><i class="icon-user"></i> OLIVERA MAROCHO EDGAR AMERICO</td>
+                    <td><center>07231957</center></td>
+                <td><center>eolivera@gmail.com</center></td>
+                <td><center>1965-04-02</center></td>
+                <td><center>CITY-NO</center></td>
+                <td><center>Choquechaca 285 - Cusco</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=36" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar36" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>37</strong></center></td>
+    <td><i class="icon-user"></i> PADILLA RUIZ ROCKY</td>
+                    <td><center>06218990</center></td>
+                <td><center>rpadilla@gmail.com</center></td>
+                <td><center>1964-01-28</center></td>
+                <td><center>UCAYALI</center></td>
+                <td><center>Jr. Salaverry 660 - Pucallpa</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=37" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar37" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>38</strong></center></td>
+    <td><i class="icon-user"></i> PALOMINO ARONI JOSE RONALD</td>
+                    <td><center>08215991</center></td>
+                <td><center>jpalomino@gmail.com</center></td>
+                <td><center>1959-05-08</center></td>
+                <td><center>ICA</center></td>
+                <td><center>Av. Cutervo 920 - Ica</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=38" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar38" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>39</strong></center></td>
+    <td><i class="icon-user"></i> PALOMINO MORALES FIDEL CIRILO</td>
+                    <td><center>07938442</center></td>
+                <td><center>fpalomino@gmail.com</center></td>
+                <td><center>1965-11-03</center></td>
+                <td><center>AYACUCHO</center></td>
+                <td><center>Av. Independencia 604 - Huamanga</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=39" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar39" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>40</strong></center></td>
+    <td><i class="icon-user"></i> PAREDES ARANDA CARLOS ANTONIO</td>
+                    <td><center>07220191</center></td>
+                <td><center>cparedes@gmail.com</center></td>
+                <td><center>1965-03-22</center></td>
+                <td><center>ANCASH</center></td>
+                <td><center>Jr. Villanueva 1017 - Huaraz</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=40" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar40" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>41</strong></center></td>
+    <td><i class="icon-user"></i> PAREDES GAMONAL ROLANDO</td>
+                    <td><center>07212762</center></td>
+                <td><center>rparedes@gmail.com</center></td>
+                <td><center>1958-09-21</center></td>
+                <td><center>ICA</center></td>
+                <td><center>Urb. San Miguel E-145 - Ica</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=41" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar41" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>42</strong></center></td>
+    <td><i class="icon-user"></i> PINTO MALAGA JUAN CARLOS</td>
+                    <td><center>23715129</center></td>
+                <td><center>jpinto@gmail.com</center></td>
+                <td><center>1964-11-21</center></td>
+                <td><center>AREQUIPA</center></td>
+                <td><center>Av. Ricardo Palma 324 - Paucarpata - arequipa</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=42" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar42" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>43</strong></center></td>
+    <td><i class="icon-user"></i> ROJAS ARANGO FREDDY YORIQUE</td>
+                    <td><center>09296121</center></td>
+                <td><center>frojas@gmail.com</center></td>
+                <td><center>1960-06-07</center></td>
+                <td><center>ANCASH</center></td>
+                <td><center>Urb. Bella Mar Mz M3 lote 7 </center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=43" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar43" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>44</strong></center></td>
+    <td><i class="icon-user"></i> ROQUE ATENCIO MODESTO</td>
+                    <td><center>10360268</center></td>
+                <td><center>mroque@gmail.com</center></td>
+                <td><center>1954-05-22</center></td>
+                <td><center>PASCO</center></td>
+                <td><center>Edificio Estatal No 2 San Juan Pampa</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=44" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar44" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>45</strong></center></td>
+    <td><i class="icon-user"></i> RUIZ SOTO JUAN HUGO</td>
+                    <td><center>10146468</center></td>
+                <td><center>jruiz@gmail.com</center></td>
+                <td><center>1968-10-18</center></td>
+                <td><center>NORTE</center></td>
+                <td><center>Mz. 252 lote 3 Zona inustrial - Piura</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=45" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar45" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>46</strong></center></td>
+    <td><i class="icon-user"></i> SALAZAR SEGURA LUIS VÍCTOR</td>
+                    <td><center>07189370</center></td>
+                <td><center>lsalazar@gmail.com</center></td>
+                <td><center>1965-09-26</center></td>
+                <td><center>LIMA METROP</center></td>
+                <td><center>Jr. Cailloma 124 - Lima</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=46" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar46" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+    <tr>
+    <td><center><strong>47</strong></center></td>
+    <td><i class="icon-user"></i> SONO CABRERA JOSÉ MARIA</td>
+                    <td><center>07251250</center></td>
+                <td><center>jsono@gmail.com</center></td>
+                <td><center>1951-02-26</center></td>
+                <td><center>LAMBAYEQUE</center></td>
+                <td><center>Av. Juan Tomis Stack 975 - Chiclayo</center></td>
+                    <td>
+                    	<center>
+                        <a href="empleado.php?estado=47" title="Cambiar Estado">
+							<span class="label label-success">Activo</span>                        </a>
+                        </center>
+                    </td>
+                  <td><center>1200</center></td>  
+                
+                <td><center>USUARIO</center></td>
+                    <td>
+                    	<a href="#actualizar47" role="button" class="btn btn-mini" data-toggle="modal" title="Actualizar Informacion">
+                    		<i class="icon-edit"></i>
+                        </a>
+                    </td>
+                  </tr>
+  </table>
+</body>
+</html>
