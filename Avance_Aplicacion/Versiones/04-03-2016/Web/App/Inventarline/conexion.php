@@ -3,5 +3,4 @@
 	$user="root";
 	$pass="";
 	$db="bdinventarline";
-
 ?>
