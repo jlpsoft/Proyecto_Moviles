@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "pe.edu.utp.practica3.Practica3"/>
+      <point      
+        x = "696"      
+        y = "264"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "pe.edu.utp.practica3.Mostrar"/>
+      <point      
+        x = "2008"      
+        y = "260"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

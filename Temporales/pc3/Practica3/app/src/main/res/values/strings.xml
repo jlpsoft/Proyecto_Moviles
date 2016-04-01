@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practica3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mostrar">Mostrar</string>
+    <string name="title_activity_eliminar">Eliminar</string>
+    <string name="title_activity_modificar">Modificar</string>
+</resources>
