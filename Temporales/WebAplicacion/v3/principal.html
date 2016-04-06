@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app='angularRoutingApp' lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="generator" content="Bootply" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="resources/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link type="text/css" rel="stylesheet" href="resources/css/styles2.css "/>
+	<title>INVENTARIO</title>
+	<link rel="shortcut icon" href="images/logo.ico"/>
+</head>
+
+
+<body ng-controller='mainController' class="grey lighten-3">
+		<nav class=" grey darken-4" role="navigation">
+   		<div class="nav-wrapper container">
+     		<a  id="logo-container" class="center brand-logo">Inventarline</a>
+     		<a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+     		<ul class="right hide-on-med-and-down">  
+          <!-- Modal Trigger -->
+          <a class="waves-effect waves-light"  href="#"><i class="material-icons">perm_identity</i></a>
+          <a href="#!" id="staggered" class="waves-effect waves-light" onclick="Materialize.showStaggeredList('#staggered-test')">Menu</a>
+        </ul>              
+      </div>
+    </nav>
+
+      
+      <div ng-controller='mainController'>  
+      <ul id="staggered-test"class="side-nav fixed">
+        <li class="bold"><a href="index.html" class="waves-effect waves-red">Inicio</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li class="bold"><a class="collapsible-header waves-effect waves-red">Producto</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="#addproduct">Agregar Producto</a></li>
+                  <li><a href="#viewproduct">Listar Producto</a></li>
+                  <li><a href="#modifyproduct">Modificar Producto</a></li>
+                  <li><a href="#deletproduct">Eliminar Producto</a></li>
+                  <li><a href="#informe">Informe de Producto</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="bold"><a class="collapsible-header waves-effect waves-red">Empleado</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="#employee">Informe del Empleado</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        </ul>
+        </div>
+
+  <div id="main">
+  <!-- Aquí inyectamos las vistas -->
+    <div ng-view></div>
+  </div>
+
+
+    <!--Import jQuery before materialize.js--> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="resources/js/materialize.min.js"></script>
+    <script src="resources/js/materialize.js"></script>
+    <script src="resources/js/init.js"></script>
+    <script src="resources/js/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.3/angular-route.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
