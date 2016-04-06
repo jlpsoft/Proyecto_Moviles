@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="generator" content="Bootply" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link type="text/css" rel="stylesheet" href="resources/css/materialize.min.css"  media="screen,projection"/>
+  <link href="resources/css/styles.css" rel="stylesheet" type="text/css">
+	
+  <title> Agregar Producto</title>
+	<link rel="shortcut icon" href="resources/images/logo.ico"/>
+</head>
+
+<body class="grey lighten-3 ">
+<div class="container">
+          <div class="col s12 M6">
+           <form action="Principal/addproduct.php" method="post">
+              <div class="titleBox light-blue darken-4 white-text">
+                <h3 class="center-align">Agregar Nuevo Producto</h3>
+              </div><br/>
+                  
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="nameproduct" type="text" class="validate" name="name">
+                  <label for="nameproduct">Nombre del Producto</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="price" type="text" class="validate" name="price">
+                  <label for="size">Precio</label>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="stock" type="text" class="validate" name="stock">
+                  <label for="brand">Cantidad</label>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="Category" type="text" class="validate" name="idFkCategory">
+                  <label for="price">Categoria</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="Brand" type="text" class="validate" name="idFkBrand">
+                  <label for="price">Marca</label>
+                </div>
+              </div> 
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="Size" type="text" class="validate" name="idFkSize">
+                  <label for="price">Tamaño</label>
+                </div>
+              </div> 
+
+             <div class="row">
+                <div class="input-field col s12">
+                  <input id="color" type="text" class="validate" name="idFkcolor">
+                  <label for="price">Color(1-13)</label>
+                </div>
+              </div>    
+            
+
+            <div class="modal-footer grey lighten-3">
+              <div class="col s12">
+                <a class="left  margin-left btn waves-effect waves-light lime darken-3" href="index.html">INICIO<i class="material-icons left">replay</i></a>
+                <button class="right margin-right btn waves-effect waves-light lime darken-3"  type="submit">Procesar<i class="material-icons right">spellcheck</i> </button> 
+
+                 <!-- <a class="right margin-right btn waves-effect waves-light lime darken-3" href="">PROCESAR
+                   <i class="material-icons right">spellcheck</i></a> -->
+              </div>  
+            </div>          
+        </form> 
+    </div>          
+</div>
+
+
+    <!--Import jQuery before materialize.js--> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="resources/js/materialize.min.js"></script>
+	  <script src="resources/js/materialize.js"></script>
+    <script src="resources/js/init.js"></script>
+</body>
+</html>
