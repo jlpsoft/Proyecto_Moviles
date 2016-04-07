@@ -20,9 +20,45 @@ function Buscar()
 			$temp_array[]= $row;
 		}
 	}
+	//header('Content-Type: application/json');
+	build_table(json_decode(json_encode($temp_array),true));
 	
-	header('Content-Type: application/json');
-	echo json_encode(array("product"=>$temp_array));
-	mysqli_close($connect);
+
 }
+function build_table($temp_array){
+
+	$keys_arr=array_keys($temp_array[0]);
+
+echo "<hr/>";
+ 
+echo "<table border='1'>";
+ 
+ 
+echo "<tr>";
+    echo "<th>id</th>";
+    foreach ($keys_arr as $key_3 => $value_key)
+    {
+        echo "<th>".$value_key."</th>";
+    }
+echo "</tr>";
+ 
+foreach ($temp_array as $key => $usuario)
+{
+    echo "<tr>";
+        echo "<td>".$key."</td>";
+        foreach ($usuario as $key2 => $values)
+        {
+            //echo "<pre>".$key2;
+            echo "<td>";
+            print_r($values);
+            echo "</td>";
+            //echo "</pre>";
+        }
+    echo "</tr>";    }
+echo "</table>";
+}
+mysqli_close($connect);
 ?>
+
+
+

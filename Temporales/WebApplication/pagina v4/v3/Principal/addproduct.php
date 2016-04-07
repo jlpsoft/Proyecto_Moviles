@@ -36,7 +36,7 @@ if(isset($_POST['name'])			&& !empty($_POST['name'])			&&
 		echo "<br>";
 
 		echo '<div class="col s12 m6 right">';
-		$regresar = '<a class="waves-effect waves-light btn brown lighten-3" href="index.html">Regresar</a>';
+		$regresar = '<a class="waves-effect waves-light btn brown lighten-3" href="principal.html">Regresar</a>';
 		echo $regresar;
 		echo '</div>';
 	echo '</div>';

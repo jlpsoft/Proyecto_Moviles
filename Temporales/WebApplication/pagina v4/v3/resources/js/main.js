@@ -17,6 +17,14 @@ angularRoutingApp.config(function($routeProvider) {
 			templateUrl : 'Principal/modifyproduct.html',
 			controller 	: 'contactController'
 		})
+		.when('/DelectProduct', {
+			templateUrl	: 'Principal/DelectProduct.html',
+			controller 	: 'mainController1'
+		})
+		.when('/InfoProduct', {
+			templateUrl	: 'Principal/InfoProduct.html',
+			controller 	: 'mainController1'
+		})
 		.otherwise({
 			redirectTo: '/'
 		});
