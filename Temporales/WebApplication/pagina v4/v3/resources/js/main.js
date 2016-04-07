@@ -10,7 +10,7 @@ angularRoutingApp.config(function($routeProvider) {
 			controller 	: 'mainController'
 		})
 		.when('/viewproduct', {
-			templateUrl : 'Principal/viewproduct.html',
+			templateUrl : 'Principal/viewproduct.php',
 			controller 	: 'aboutController'
 		})
 		.when('/modifyproduct', {
@@ -22,7 +22,7 @@ angularRoutingApp.config(function($routeProvider) {
 			controller 	: 'mainController1'
 		})
 		.when('/InfoProduct', {
-			templateUrl	: 'Principal/InfoProduct.html',
+			templateUrl	: 'Principal/InfoProduct1.php',
 			controller 	: 'mainController1'
 		})
 		.otherwise({

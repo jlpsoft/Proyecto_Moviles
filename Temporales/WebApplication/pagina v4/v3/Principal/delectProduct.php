@@ -12,5 +12,6 @@ function Eliminar()
 	$query = " DELETE FROM product where id ='$id';";
 	mysqli_query($connect, $query) or die (mysqli_error($connect));
 	mysqli_close($connect);
+	header("location:../principal.html");
 }
 ?>

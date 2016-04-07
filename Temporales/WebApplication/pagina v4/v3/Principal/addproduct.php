@@ -40,6 +40,9 @@ if(isset($_POST['name'])			&& !empty($_POST['name'])			&&
 		echo $regresar;
 		echo '</div>';
 	echo '</div>';
+	echo '<script>alert("USUARIO REGISTRADO")</script>';
+	echo "<script>location.href='../principal.html'</script>;";
+	header("location:../principal.html");
 	
 }
 else

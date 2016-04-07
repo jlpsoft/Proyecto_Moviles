@@ -13,6 +13,7 @@ function Modificar()
 	
 	mysqli_query($connect, $query) or die (mysqli_error($connect));
 	mysqli_close($connect);
+	header("location:../principal.html");
 	
 }
 ?>
