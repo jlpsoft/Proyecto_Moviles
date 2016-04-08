@@ -26,7 +26,7 @@ mysql_select_db($db, $con) or die ("problemas al conectar con la bd");
 $estandar=mysql_query("SELECT * FROM employee where username='$_POST[username]' AND password='$_POST[password]' ",$con);
 }
 
-if($row=mysqli_fetch_array($estandar)){
+if($row=mysql_fetch_array($estandar)){
 	header("location:principal.html");
 }
 

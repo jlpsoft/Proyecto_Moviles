@@ -10,6 +10,6 @@ function conectarse($host,$usuario,$password,$BBDD){
    mysql_select_db($BBDD,$link) or die (mysql_error()); 
    return $link; 
 } 
-$link=conectarse("localhost","root","","u145018390_bdinv"); 
+$link=conectarse("localhost","root","","bdinventarline"); 
 
 ?>
