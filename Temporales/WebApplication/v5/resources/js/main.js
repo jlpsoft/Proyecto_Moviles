@@ -21,6 +21,10 @@ angularRoutingApp.config(function($routeProvider) {
 			templateUrl	: 'Principal/DelectProduct.html',
 			controller 	: 'mainController1'
 		})
+		.when('/InfoProduct1', {
+			templateUrl	: 'Principal/InfoProduct1.php',
+			controller 	: 'mainController1'
+		})
 		.when('/employee', {
 			templateUrl	: 'Principal/employee.php',
 			controller 	: 'mainController1'

@@ -2,6 +2,6 @@
 	$host="localhost";
 	$user="root";
 	$pass="";
-	$db="bdinventarline";
+	$db="u145018390_bdinv";
 
 ?>

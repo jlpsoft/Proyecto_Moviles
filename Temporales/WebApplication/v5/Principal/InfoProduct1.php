@@ -1,15 +1,6 @@
 <?php
 
 require '../conexion2.php'; 
-//global $link;
-/*function conectarse($host,$usuario,$password,$BBDD){ 
-   $link=mysql_connect($host,$usuario,$password) or die (mysql_error()); 
-   mysql_select_db($BBDD,$link) or die (mysql_error()); 
-   return $link;
-
- 
-} */
-//$link=conectarse("localhost","root","","u145018390_bdinv");  
 
 $sql = "SELECT * FROM product"; 
 $sql = mysql_query($sql, $link); 
