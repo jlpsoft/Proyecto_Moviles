@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="resources/css/materialize.min.css"  media="screen,projection"/>
+    <link href="resources/css/styles.css" rel="stylesheet" type="text/css">
+
+	<title>Informe de Producto</title>
+	<link rel="shortcut icon" href="resources/images/logo.ico"/>
+
+</head>
+<body class="grey lighten-3 ">
+
+
+
+	<div>
+
+    <?php 
+      require '..\conexion1.php';
+      global $connect;
+
+      $result = mysql_query($connect,"SELECT name, price FROM product" ); 
+      echo "<table border = '1'> \n"; 
+      echo "<tr><td>Nombre</td><td>E-Mail</td></tr> \n"; 
+        while ($row = mysql_fetch_row($result)){ 
+       echo "<tr><td>$row[0]</td><td>$row[1]</td></tr> \n"; 
+} 
+echo "</table> \n"; 
+?> 
+
+    </div>
+
+    <!--Import jQuery before materialize.js--> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="resources/js/materialize.min.js"></script>
+	<script src="resources/js/materialize.js"></script>
+    <script src="resources/js/init.js"></script>
+
+</body>
+</html>
