@@ -8,7 +8,7 @@
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link type="text/css" rel="stylesheet" href="resources/css/materialize.min.css"  media="screen,projection"/>
-    <link href="resources/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/styles2.css" rel="stylesheet" type="text/css">
 	<title>Aceptacion de Usuario</title>
 	 <link rel="shortcut icon" href="images/logo.ico"/>
 </head>
@@ -56,11 +56,7 @@ if(isset($_POST['name'])		&& !empty($_POST['name'])		&&
 	mysqli_query($connect, $query) or die (mysqli_error($connect));
 	mysqli_close($connect);
 
-	//mysql_query("INSERT INTO login 		(username,password) 									VALUES ('$_POST[name1]','$_POST[password1]')",$con);
-	/*$con=mysql_connect($host,$user,$pass) or die("problemas al conectar");
-	mysql_select_db($db,$con) or die ("problemas al conectar con la bd");
-	mysql_query($con,$query);*/	
-	echo '<div class="grey lighten-3 stylelogin modal-dialog modal-content modal-body">';
+	echo '<div class="grey lighten-3 modal-dialog1 modal-content1 modal-body1">';
 
 		echo '<h4 class="center col s12 m6">Usuario Registrado</h4>';
 		echo "<br>";
@@ -74,7 +70,7 @@ if(isset($_POST['name'])		&& !empty($_POST['name'])		&&
 }
 else
 	{
-	echo '<div class="grey lighten-3 stylelogin modal-dialog modal-content modal-body">';
+	echo '<div class="grey lighten-3 modal-dialog1 modal-content1 modal-body1">';
 	echo '<h4 class="center col s12 m6">Problemas al insertar datos.</h4>';
 	echo "<br>";
 	
@@ -90,6 +86,5 @@ else
 
   	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="resources/js/materialize.min.js"></script>
-
 </body>
 </html>
