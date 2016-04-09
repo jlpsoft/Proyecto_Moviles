@@ -8,7 +8,7 @@
   <link href="resources/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link type="text/css" rel="stylesheet" href="resources/css/styles2.css "/>
   
-  <title>INVENTARIO</title>
+  <title>AYZA QP</title>
   <link rel="shortcut icon" href="resources/images/logo.ico"/>
 </head>
 
@@ -17,7 +17,7 @@
     <div class="navbar-fixed" role="navigation">
       <nav class="blue darken-4">
       <div class="nav-wrapper container">
-        <a  id="logo-container" class="center brand-logo">Inventarline </a>
+        <a  id="logo-container" class="center brand-logo">AYZA QP</a>
         
         <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a></div>
         <ul id="slide-out" class="side-nav">

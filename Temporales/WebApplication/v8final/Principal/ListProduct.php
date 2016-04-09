@@ -68,12 +68,12 @@ echo "<thead>";
 echo         "<tr>";
 echo 			"<th data-field='id'>Id</th>";
 echo            "<th data-field='name'>Nombre</th>";
-echo            "<th data-field='price'>Precio</th>";
-echo            "<th data-field='stock'>Cantidad</th>";
-echo            "<th data-field='category'>Categoria</th>";
-echo            "<th data-field='brand'>Marca</th>";
-echo            "<th data-field='size'>Tamaño</th>";
-echo            "<th data-field='color'>Color</th>";
+echo            "<th data-field='price'>Anexo</th>";
+echo            "<th data-field='stock'>Observacion</th>";
+echo            "<th data-field='category'>Codigo de Registro</th>";
+echo            "<th data-field='brand'>CodigoModular</th>";
+echo            "<th data-field='size'>Longitud</th>";
+echo            "<th data-field='color'>Placa</th>";
 echo          "</tr>";
 echo "</thead>";
 
