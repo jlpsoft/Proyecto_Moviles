@@ -68,6 +68,7 @@
               <div class="collapsible-body">
                 <ul>
                   <li><a href="#employee">Informe del Empleado</a></li>
+                  <li><a href="#empleado">Empleado</a></li>
                 </ul>
               </div>
             </li>
