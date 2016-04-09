@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="resources/css/materialize.css"  media="screen,projection"/>
+    <link href="resources/css/styles2.css" rel="stylesheet" type="text/css">
+	<title>INVENTARIO</title>
+  	<link rel="shortcut icon" href="images/logo.ico"/>
+</head>
+<body class="grey lighten-3 ">
+	<div>
+				<!-- Dropdown Structure -->
+			<ul id="dropdown2" class="dropdown-content">
+  			<li><a class="center-align" href="addproduct.html!">Agregar Producto</a></li>
+  			<li><a class="center-align" href="modifyproduct.html">Modificar Producto</a></li>
+  			<li class="divider"></li>
+  			<li><a class="center-align" href="viewproduct.html">Visualizar Producto</a></li>
+  			<li><a class="center-align" href="informeproduct.html">Informe del Producto</a></li>
+			</ul>
+			<ul id="dropdown4" class="dropdown-content">
+  			<li><a  class="center-align" href="employee.html">Informacion del Empleado</a></li>
+			</ul>
+		<nav class=" grey darken-4" role="navigation">
+    		<div class="nav-wrapper container">
+      		<a  id="logo-container" class=" center brand-logo">Inventarline</a>
+      		<a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      		  <ul class="right hide-on-med-and-down">
+        	             <!-- Modal Trigger -->
+          <a class="waves-effect waves-light modal-trigger" href="#login"><i class="material-icons">perm_identity</i></a>
+        </ul>              
+      </div>
+    </nav>
+
+  <!-- ------------------------------MODAL DE LOGIN ---------------------------------------------- -->
+            <div id="login" class="modal z-depth-4 grey lighten-3">
+              <div class="modal-content">   
+                <form action="login.php" method="post">
+                  <div class="col s12">  
+                      <div class="titleBox grey darken-1 white-text">
+                        <h3 class="center-align">Ingresa a tu Cuenta</h3>
+                      </div>
+                      <div class="form-group">    
+                        <div class="separator">
+                          <span class="right spanTextHelp"><a href="#helpme" class="modal-trigger">¿Te ayudamos?</a></span>
+                        </div>
+                          <div class="input-field col s12">
+                            <input id="name" type="text" name="username" class="validate">
+                            <label for="name"><i class="material-icons left">perm_identity</i>Usuario</label>
+                          </div>  
+                          <div class="input-field col s12">
+                            <input id="password" type="password" name="password" class="validate">
+                            <label for="password"><i class="material-icons left">vpn_key</i>Contraseña</label>
+                          </div>
+                      </div>
+                        <div>
+                          <button class="btn waves-effect waves-light btn-large" >ENVIAR
+                          <i class="material-icons right">send</i>
+                          </button>
+                        </div>
+                  </div> <br/>
+                      <div class="modal-footer grey lighten-3">
+                        <div class="col s12">
+                          <span class="spanTextRegister"><a href="#newuser" class="modal-trigger">Registrate Aquí</a> </span>
+                          <button class="right btn waves-effect waves-light lime darken-3" type="submit"> Cancelar
+                          <i class="material-icons left">not_interested</i>
+                          </button>
+                        </div>
+                        </div>
+                </form>
+              </div>
+            </div>  
+  <!--  ---------------------MODAL NEW USER --------------------------------------------- -->
+          <div id="newuser" class="modal z-depth-4 grey lighten-3">
+            <div class="modal-content">   
+              <form action="insertar.php" method="POST">
+                  <div class="titleBox  grey darken-1 white-text">
+                    <h3 class="center-align">Crear un nuevo usuario</h3>
+                  </div><br/>
+                  <!-- ************CODIGO DEL USUARIO Y CONTRASEÑA********** -->
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">assignment_ind</i>
+                      <input id="id" type="text" class="validate" name="username">
+                      <label for="id">Usuario</label>
+                    </div>
+                  </div>
+      
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">vpn_key</i>
+                      <input id="password" type="password" class="validate" name="password">
+                      <label for="password">Contraseña</label>
+                    </div>
+                  </div>
+                  <!-- ***************INFORMACION DEL USUARIO************ -->
+                  <div>
+                    <h5 class="margin-right margin-left">Informacion General del Usuario</h5>
+                    <br/>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="first_name" type="text" class="validate" name="name">
+                      <label for="first_name">Nombre</label>
+                    </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="last_name" type="text" class="validate" name="lastname">
+                    <label for="last_name">Apellidos</label>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">email</i>
+                      <input id="email" type="email" class="validate" name="email">
+                      <label for="email">Correo</label>
+                    </div>
+                    <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">today</i>
+                      <input id="age" type="text" class="validate" name="datestart">
+                      <label for="email">Fecha de inicio(aa-mm-dd)</label>
+                    </div>
+                  </div>
+                  </div>                 
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">credit_card</i>
+                      <input id="dni" type="text" class="validate" name="dni">
+                      <label for="dni">DNI</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">today</i>
+                      <input id="age" type="text" class="validate" name="dateborn">
+                      <label for="<age">Fecha Nacimiento(aa-mm-dd)</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">location_on</i>
+                      <input id="city" type="text" class="validate" name="address">
+                      <label for="city">Direccion</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">location_on</i>
+                      <input id="city" type="text" class="validate" name="city">
+                      <label for="city">Ciudad</label>
+                    </div>
+                  </div> 
+                  <div class="modal-footer grey lighten-3">
+                    <div class="col s12">
+                      <a class="left  margin-left btn waves-effect waves-light lime darken-3" href="index.html">INICIO<i class="material-icons left">replay</i></a> 
+
+                       <button class="right margin-right btn waves-effect waves-light lime darken-3"  type="submit">Procesar<i class="material-icons right">spellcheck</i> </button> 
+                            
+                      <!-- <a class="right margin-right btn waves-effect waves-light lime darken-3" type="submit">PROCESAR</a> -->
+                    </div>  
+                  </div> 
+              </form>
+            </div>
+          </div>      
+    <!-- ------------------------- Te ayudamos  ------------------------ -->
+    	
+      <div id="helpme" class="modal z-depth-4 grey lighten-3">
+        <div class="modal-content">   
+          <div>
+            <div>
+              <h4 class="margin-right margin-left">Ayuda</h4>
+            </div>
+            <div class="container">
+              <div class="row">    
+                <ul class="collapsible popout" data-collapsible="accordion">
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">done</i>¿Que hacer si somos nuevos en este sistema?
+                    </div>
+
+                    <div class="collapsible-body">
+                    <p>Debemos seguir los siguientes pasos para crear un nuevo usuario:<br/>
+                      1. Debemos dirigirnos a la opcion REGISTRATE AQUI.<br/>
+                      2. Llenar los siguientes campos con nuestra informacion.<br/>
+                      3. Procesar los datos para el creado del usuario.<br/>
+                      4. Aceptacion del Usuario.<br/>
+                      5. Finalizar.<br/>
+                      Usted ha creado satisfactoriamente su nueva cuenta de usuario.
+                    </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">done</i>¿NO se puede ingresar a la cuenta del usuario?</div>
+                    <div class="collapsible-body">
+                    <p>1. Debemos verificar si estamos escribiendo bien la contraseña o el usuario.<br/>
+                       2. Verificar las mayusculas, giones, punto u otro caracter.<br/>
+                       3. Verificar si la base de datos sigue activa.<br/>
+                    </p>
+                    </div>
+                  </li>
+                  <li>
+                  <div class="collapsible-header"><i class="material-icons">done</i>¿Problemas al iniciar?</div>
+                  <div class="collapsible-body">
+                  <p> 1. Verificar si la conexiones estan activas.<br/>
+                      2. Verificar si el sitio se encuentra accesible.<br/>
+                      3. Verificar si el usuario esta activado.<br/>
+                  </p>
+                  </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal-footer grey lighten-3">
+                    <div class="col s12">
+                      <a class="left  margin-left btn waves-effect waves-light lime darken-3 modal-trigger" href="#login">Regresar
+                        <i class="material-icons left">replay</i>
+                      </a>           
+                    </div>  
+            </div>   
+          </div>
+        </div>
+      </div>
+      	<!--........................................... mobile......................................................... -->	
+      		<ul class="side-nav grey lighten-4" id="mobile-demo">
+      			<div>
+        		<li><a href="#">Inicio</a></li>
+        	<!-- .............................................Dropdown Trigger...................................... -->
+     			<li><a class="dropdown-button" href="#!" data-activates="dropdown2">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+     			<li><a class="dropdown-button" href="#!" data-activates="dropdown4">Empleado<i class="material-icons right">arrow_drop_down</i></a></li><br/><br/><br/><br/><br/>
+      	  <li><a class="" href="#login"><i class="material-icons">perm_identity</i>&nbsp&nbsp Inicio de Sesion</a></li>
+          <!--<li><a  class="topcs" href="##" >Cerrar Sesion</a></li> -->
+      			</div>
+      		</ul>
+    		</div>
+  		</nav>
+    </div>
+
+<!--         ************Cuerpo de la pagina*************        -->
+    <div  class="col s12">
+    	<div class="container">
+    			<h1>Inventarline</h1>
+       		<h5>La mejor calidad en ropas en distintas marcas y modelos.</h5>
+    	</div>
+		</div>	
+<!-- ------------------------------Slider------------------ -->
+  <div>
+  <div class="row">
+    <div class="col s12">
+      <!--  Slider Section  -->
+      <div id="slider" class="scrollspy section">
+        
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="resources/images/nike2.jpg">
+              <div class="caption center-align">
+                <h3>Flexible</h3>
+                <h5 class="light grey-text text-lighten-3">Comodidad para las Actividades.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="resources/images/nike3.jpg">
+              <div class="caption right-align">
+                <h3>Adaptable</h3>
+                <h5 class="light grey-text text-lighten-3">Se adhiere al cuerpo.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="resources/images/nike4.jpg">
+              <div class="caption left-align">
+                <h3 class="black-text">Innovador</h3>
+                <h5 class="light black-text text-lighten-3">Accesorios unicos.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="resources/images/nike6.jpg">
+              <div class="caption right-align">
+                <h3 class="black-text">Confortable</h3>
+                <h5 class="light black-text text-lighten-3">Adecuado para la rutina diaria.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="resources/images/nike5.jpg">
+              <div class="caption right-align">
+                <h3 class="black-text">Calidad</h3>
+                <h5 class="light black-text text-lighten-3">Variedad de diseño.</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3>
+          <i class="material-icons">supervisor_account</i></h3>
+          <h4>Productos</h4>
+          <p class="left-align light">La tienda de ropa se encarga de brindar los mejores productos a la disponibilidad de los clientes, se pueden encontrar todos los accesorios, ropa, implementos de acuerdo al deporte que esta buscando.Ademas, se puede encontrar en distintas marcas, colores, tallas y precios para que el cliente se sienta satisfecho con el producto que es esta buscando segun sus requerimientos. Contamos con un personal que le puede dar mas informacion sobre los productos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- -------------------- Bloque de  imagenes de natacion ------------------------- -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 white-text">Accesorios de buena calidad.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="resources/images/tenis.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3>
+          <i class="material-icons">supervisor_account</i></h3>
+          <h4>Colaboradores</h4>
+          <p class="left-align light">La tienda de ropa se encarga de brindar los mejores productos a la disponibilidad de los clientes, se pueden encontrar todos los accesorios, ropa, implementos de acuerdo al deporte que esta buscando.Ademas, se puede encontrar en distintas marcas, colores, tallas y precios para que el cliente se sienta satisfecho con el producto que es esta buscando segun sus requerimientos. Contamos con un personal que le puede dar mas informacion sobre los productos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--        ...................................................Footer.............................................. -->
+   <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Variedad de Productos seleccionados por Marcas de excelente calidad.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="resources/images/nike.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+    <footer class="page-footer grey lighten-3">
+		<div class="container">
+      <!--   Icon Section   -->
+      <div class="row">
+      	<div class="col l4 s12">
+      		<div class="icon-block">
+       			<h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+       			<h5 class="center">Eficacia y Calidad</h5>
+     				<p class="light center">Se ha desarrollado en forma concreta y a tiempo.Además , hemos refinado animaciones y transiciones para proporcionar una experiencia más suave para los desarrolladores.</p>
+          </div>
+        </div>
+        <div class="col l4 s12">
+        	<div class="icon-block">
+        		<h2 class="center brown-text"><i class="material-icons">group</i></h2>
+        		<h5 class="center">Experiencia</h5>
+       			<p class="light center">Este grupo tiene personas capacitadas para desarrollar las distintos areas. Desde un Jefe de proyecto hasta un digitador, teniendo encuenta que todos cumple con su rol encargado.</p>
+     			</div>
+     		</div>
+     		<div class="col l4 s12">
+     			<div class="icon-block">
+       			<h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+       			<h5 class="center">Metodologia</h5>
+       			<p class="light center">Este grupo ha desarrollado con la metodologia CMMI nivel 2 para poder cumplir con todos los requerimientos en las fechas previstas segun el cronograma .</p>
+     			</div>
+     		</div>
+      </div>
+    </div>  
+      <div class="footer-copyright">
+        <div class="container black-text">
+          © 2016 Copyright Text
+          <a class="grey-text right">by 3J SOFT</a>
+        </div>
+      </div>
+    </footer>
+            
+    
+    <!--Import jQuery before materialize.js--> 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="resources/js/materialize.min.js"></script>
+  <script src="resources/js/materialize.js"></script>
+  <script src="resources/js/init.js"></script>
+</body>
+</html>
