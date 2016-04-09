@@ -1,0 +1,147 @@
+.principal{
+	background-image: url('../../resources/images/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% absolute;
+	background-position: absolute;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.separator{
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+.spanTextHelp a{
+	margin-top: .2em;
+	margin-bottom: .2em;
+	text-align: right;
+	text-decoration: none;
+	color:#6669C5;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.spanTextRegister a{
+	margin-top: .2em;
+	margin-bottom: .2em;
+	text-align: right;
+	text-decoration: none;
+	font-color:#6669C9;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.titleBox{
+  position: center;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  outline: 0;
+}
+
+.margin-rl{
+	padding-left: 240px
+}
+
+/* ************* Orientacion del Contenido ********** */
+.right{
+	align-content: right;
+}
+
+.margin-right{ 
+	margin-right: 15px;
+}
+.left{
+	align-content: left;
+}
+
+.margin-left{
+	margin-left: 15px;
+}
+
+/* ************************************************ */
+
+/* **************Barra Horizontal **************** */
+hr { 
+  background-color: #33691e; 
+  height: 2px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* ************************************************ */
+
+.form{
+	align-content: center;
+}
+/* ******************* BOTONES ******************* */
+
+.textSizeButton{
+	font-size: 1.4em;
+}
+.btn-large {
+  display: block;
+  width: 100%;
+}
+
+/* ************************************************ */
+
+
+/* ******************** Login ***************** */
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+.modal-footer {   
+	border-top: 0; 
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .modal-sm {
+    width: 300px;
+  }
+}
+
+
+/* ************************************************ */
