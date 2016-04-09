@@ -38,7 +38,7 @@
  
     <tbody>       
            <?php
-              include("a.php");
+              include("listartodoslosproductos.php");
               $Con = new conexion();
               $Con->recuperarDatos();
           ?>
